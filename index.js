@@ -1,6 +1,6 @@
-const express = require('express');
+import express from 'express';
 require('./api/db/connection').open();
-const route = require('./api/routes/gameRoutes');
+import route from './api/routes/gameRoutes';
 
 const app = express();
 
